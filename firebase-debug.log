@@ -1,0 +1,50 @@
+[debug] [2020-04-09T05:58:00.414Z] ----------------------------------------------------------------------
+[debug] [2020-04-09T05:58:00.416Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sagar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2020-04-09T05:58:00.417Z] CLI Version:   8.0.2
+[debug] [2020-04-09T05:58:00.417Z] Platform:      win32
+[debug] [2020-04-09T05:58:00.417Z] Node Version:  v12.14.1
+[debug] [2020-04-09T05:58:00.418Z] Time:          Thu Apr 09 2020 11:28:00 GMT+0530 (India Standard Time)
+[debug] [2020-04-09T05:58:00.418Z] ----------------------------------------------------------------------
+[debug] [2020-04-09T05:58:00.418Z] 
+[debug] [2020-04-09T05:58:00.429Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-09T05:58:00.430Z] > authorizing via signed-in user
+[debug] [2020-04-09T05:58:00.430Z] [iam] checking project nodejs2613 for permissions ["firebase.projects.get"]
+[debug] [2020-04-09T05:58:00.434Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/nodejs2613:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-09T05:58:02.114Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 09 Apr 2020 05:57:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1526","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-09T05:58:02.119Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/nodejs2613  
+ 
+[debug] [2020-04-09T05:58:02.611Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 09 Apr 2020 05:57:58 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[info] +  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\WEBPROJECTS\Javascript packages and projects\expressMarkdownBlog\functions" for Cloud Functions...
+[debug] [2020-04-09T05:58:04.830Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-04-09T05:58:04.830Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-04-09T05:58:04.831Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-04-09T05:58:04.831Z] [worker-~diagnostic~-434ce5b1-80eb-4848-986d-5eaaf65bdd93]: Assigning socketPath: \\?\pipe\C:\WEBPROJECTS\Javascript packages and projects\expressMarkdownBlog\functions\39944 
+[debug] [2020-04-09T05:58:04.832Z] [worker-~diagnostic~-434ce5b1-80eb-4848-986d-5eaaf65bdd93]: BUSY 
+[debug] [2020-04-09T05:58:05.381Z] [runtime-status] [39944] Functions runtime initialized. {"cwd":"C:\\WEBPROJECTS\\Javascript packages and projects\\expressMarkdownBlog\\functions","node_version":"12.14.1"} 
+[debug] [2020-04-09T05:58:05.382Z] [runtime-status] [39944] Disabled runtime features: undefined 
+[debug] [2020-04-09T05:58:05.388Z] [runtime-status] [39944] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\WEBPROJECTS\\Javascript packages and projects\\expressMarkdownBlog\\functions\\node_modules\\.pnpm\\registry.npmjs.org\\firebase-admin\\8.10.0\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-04-09T05:58:05.390Z] [runtime-status] [39944] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\WEBPROJECTS\\Javascript packages and projects\\expressMarkdownBlog\\functions\\node_modules\\.pnpm\\registry.npmjs.org\\firebase-functions\\3.6.0_firebase-admin@8.10.0\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-04-09T05:58:05.393Z] [runtime-status] [39944] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-04-09T05:58:05.447Z] [runtime-status] [39944] Checked functions.config() {"config":{}} 
+[debug] [2020-04-09T05:58:05.448Z] [runtime-status] [39944] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\WEBPROJECTS\\Javascript packages and projects\\expressMarkdownBlog\\functions\\node_modules\\.pnpm\\registry.npmjs.org\\firebase-functions\\3.6.0_firebase-admin@8.10.0\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-04-09T05:58:05.450Z] [runtime-status] [39944] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\WEBPROJECTS\\Javascript packages and projects\\expressMarkdownBlog\\functions\\node_modules\\.pnpm\\registry.npmjs.org\\firebase-admin\\8.10.0\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-04-09T05:58:05.450Z] [runtime-status] [39944] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\WEBPROJECTS\\Javascript packages and projects\\expressMarkdownBlog\\functions\\node_modules\\.pnpm\\registry.npmjs.org\\firebase-functions\\3.6.0_firebase-admin@8.10.0\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-04-09T05:58:05.451Z] [runtime-status] [39944] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\WEBPROJECTS\\Javascript packages and projects\\expressMarkdownBlog\\functions\\node_modules\\.pnpm\\registry.npmjs.org\\firebase-admin\\8.10.0\\node_modules\\firebase-admin\\lib\\index.js"}} 
+[warn] !  Error: Cannot find module 'C:\WEBPROJECTS\Javascript packages and projects\expressMarkdownBlog\functions\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (internal/modules/cjs/loader.js:297:19)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:528:18)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at C:\Users\sagar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:656:33
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\sagar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2020-04-09T05:58:05.525Z] [worker-~diagnostic~-434ce5b1-80eb-4848-986d-5eaaf65bdd93]: exited 
+[debug] [2020-04-09T05:58:05.525Z] [worker-~diagnostic~-434ce5b1-80eb-4848-986d-5eaaf65bdd93]: FINISHED 
